@@ -2159,7 +2159,7 @@ progress {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #292929;
   background-clip: padding-box;
   border: 1px solid #ced4da;
   -webkit-appearance: none;
@@ -10853,7 +10853,7 @@ p {
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  /*margin-bottom: 1rem;*/
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
@@ -11138,7 +11138,7 @@ header.masthead .masthead-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #ffc800;
+  background-color: white;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
@@ -11234,7 +11234,7 @@ header.masthead .masthead-heading {
     min-height: 170px;
   }
   .timeline > li .timeline-panel {
-    padding: 0 20px 20px 100px;
+    /*padding: 0 20px 20px 100px;*/
   }
   .timeline > li .timeline-image {
     width: 170px;
@@ -11268,7 +11268,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  /*background-image: url("../assets/img/map-image.png");*/
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -11360,13 +11360,13 @@ section#contact form#contactForm :-ms-input-placeholder {
 .my-col-md-1 {
   text-align: left;
   flex: 0 0 auto;
-  width: 10%;
+  width: 12%;
 }
 
 .my-col-md-2 {
   text-align: left;
   flex: 0 0 auto;
-  width: 23%;
+  width: 25%;
 }
 
 .my-col-md-3 {
@@ -11374,3 +11374,41 @@ section#contact form#contactForm :-ms-input-placeholder {
   flex: 0 0 auto;
   width: 50%;
 }
+
+/* new src */
+.ird-src-1 {
+  width: 1.3rem;
+  padding-bottom: 3px;
+}
+
+.ird-src-2 {
+  width: 2.5rem;
+  padding-bottom: 3px;
+}
+
+.new-center-1 {
+  margin: 0 auto 0 8rem;
+}
+
+ul.li-bottom-1 li {
+  padding-bottom: 0.3rem;
+}
+
+.center {
+  text-align: center;
+}
+.logo-list {
+  font-size: 1;
+}
+
+.logo-list li.html {
+  width:auto;
+  list-style-position:inside;
+  background-image: url("../assets/img/logos/logo_html5.png");
+
+}
+
+.width-rem-5 {
+  width:5rem;
+}
+
