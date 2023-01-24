@@ -127,7 +127,7 @@ h6, .h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: -1rem;
 }
 
 abbr[title],
@@ -631,7 +631,8 @@ progress {
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    /*max-width: 1320px;*/
+    max-width: 1080px;
   }
 }
 .row {
@@ -11245,7 +11246,7 @@ header.masthead .masthead-heading {
     margin-top: 40px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 100px 20px 20px;
+    padding: 0 80px 20px 20px;
   }
 }
 .team-member {
@@ -11372,13 +11373,13 @@ section#contact form#contactForm :-ms-input-placeholder {
 .my-col-md-3 {
   text-align: left;
   flex: 0 0 auto;
-  width: 50%;
+  width: 55%;
 }
 
 /* new src */
 .ird-src-1 {
   width: 1.3rem;
-  padding-bottom: 3px;
+  padding-bottom: 4px;
 }
 
 .ird-src-2 {
@@ -11410,5 +11411,120 @@ ul.li-bottom-1 li {
 
 .width-rem-5 {
   width:5rem;
+}
+
+.dl-style-1 {
+  font-size: 0;
+}
+
+.left-1 {
+  display: inline-block;
+  width: 23rem;
+  vertical-align: top;
+}
+
+@media (min-width: 993px) {
+  .right-1 {
+    display: inline-block;
+    width: calc(100% - 24rem);
+    padding-left: 3rem;
+    vertical-align: top;
+  }
+
+
+}
+
+.dl-style-1 dt {
+  display: inline-block;
+  width: 12rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  vertical-align: top;
+  line-height: 1.8em;
+}
+
+.dl-style-1 dd {
+  display: inline-block;
+  width: calc(100% - 12rem);
+  font-size: 1.3rem;
+  vertical-align: top;
+  line-height: 1.8em;
+}
+
+@media (max-width: 992px) {
+  .profile-1 {
+    content: url("../assets/img/m_profile.jpeg");
+  }
+
+  .left-1 {
+    width: 100%;
+  }
+
+  .right-1 {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .dl-style-1 dt {
+    display: inline-block;
+    width: 9rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    vertical-align: top;
+    line-height: 1.8em;
+  }
+
+  .dl-style-1 dd {
+    width: calc(100% - 9rem);
+  }
+}
+
+
+
+
+
+
+.profile-1 {
+  width: 100%;
+  border-radius: 2rem;
+  display: block !important;
+}
+
+.div-align {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.about-lsit-1 {
+  list-style: none;
+}
+
+.about-lsit-1 li:first-child {
+  padding-top: 0;
+  padding-bottom: 3rem;
+  border-top: 0;
+}
+
+.about-lsit-1 li {
+  padding: 2rem 0;
+  border-top: 1px dashed #8c8c8c;
+}
+
+.about-lsit-1 li div p {
+  font-size: 2rem;
+  font-weight: 350;
+}
+
+.about-lsit-1 li div p.term {
+  font-size: 1.3rem;
+  font-weight: 350;
+}
+
+.about-lsit-1 li p.place {
+  font-size: 1.3rem;
+  color: #8c8c8c;
+  font-weight: 350;
+  margin-top: 1rem;
 }
 
