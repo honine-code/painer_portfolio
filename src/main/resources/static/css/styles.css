@@ -11430,8 +11430,6 @@ ul.li-bottom-1 li {
     padding-left: 3rem;
     vertical-align: top;
   }
-
-
 }
 
 .dl-style-1 dt {
@@ -11526,4 +11524,54 @@ ul.li-bottom-1 li {
   color: #8c8c8c;
   font-weight: 350;
   margin-top: 1rem;
+}
+
+/**
+  Project Section
+ */
+.project_circle {
+  padding: 3rem;
+  margin: 0 auto 2rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+  -webkit-box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+}
+
+.project_img-repository {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin-right: 3rem;
+}
+
+.project_img-1 {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 993px) {
+  .project_render-2 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+  }
+
+  .project_font-2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .project_circle {
+    padding: 1rem;
+  }
+  .project_render-2 {
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+  }
+  .project_font-2 {
+    font-size: 1.5rem;
+  }
 }
