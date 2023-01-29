@@ -11470,17 +11470,15 @@ ul.li-bottom-1 li {
     font-weight: 700;
     vertical-align: top;
     line-height: 1.8em;
+    height: 1.5rem;
   }
 
   .dl-style-1 dd {
     width: calc(100% - 9rem);
+    height: 1.5rem;
   }
+
 }
-
-
-
-
-
 
 .profile-1 {
   width: 100%;
@@ -11538,17 +11536,37 @@ ul.li-bottom-1 li {
   -webkit-box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
 }
 
+.project-left-repostiroy {
+  overflow: hidden;
+  position: relative;
+  width: 50%;
+  margin-right: 3rem;
+  float: left;
+  border-right: 1px solid #ccc;
+  padding-right: 3rem;
+}
+
+.project-right-repository {
+  width: calc(50% - 3rem);
+  float: right;
+}
+
 .project_img-repository {
   overflow: hidden;
   position: relative;
   width: 100%;
   margin-right: 3rem;
+  margin-bottom: 1rem;
 }
 
 .project_img-1 {
   display: block;
   margin: 0 auto;
   width: 100%;
+}
+
+.margin-bottom-1 {
+ margin-bottom: 1px;
 }
 
 @media (min-width: 993px) {
@@ -11559,6 +11577,23 @@ ul.li-bottom-1 li {
 
   .project_font-2 {
     font-size: 2rem;
+  }
+
+  .project-dl-style-1 dt {
+    display: inline-block;
+    /*width: 12rem;*/
+    font-size: 1.3rem;
+    font-weight: 700;
+    vertical-align: top;
+    line-height: 1.8em;
+  }
+
+  .project-dl-style-1 dd {
+    display: inline-block;
+    width: 100%;
+    font-size: 1rem;
+    vertical-align: top;
+    line-height: 1.8em;
   }
 }
 
@@ -11573,5 +11608,22 @@ ul.li-bottom-1 li {
   }
   .project_font-2 {
     font-size: 1.5rem;
+  }
+
+  .project-dl-style-1 dt {
+    display: inline-block;
+    width: 12rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    vertical-align: top;
+    line-height: 1.8em;
+  }
+
+  .project-dl-style-1 dd {
+    display: inline-block;
+    width: 100%;
+    font-size: 1rem;
+    vertical-align: top;
+    line-height: 1.8em;
   }
 }
