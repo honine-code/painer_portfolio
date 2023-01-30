@@ -11424,6 +11424,10 @@ ul.li-bottom-1 li {
 }
 
 @media (min-width: 993px) {
+  .header-height-1 {
+    height: 100vh;
+  }
+
   .right-1 {
     display: inline-block;
     width: calc(100% - 24rem);
@@ -11449,7 +11453,40 @@ ul.li-bottom-1 li {
   line-height: 1.8em;
 }
 
+.skill-dl-style-1 dt {
+  display: inline-block;
+  width: 12rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  vertical-align: top;
+  line-height: 1.8em;
+}
+
+.skill-dl-style-1 dd {
+  display: inline-block;
+  width: calc(100% - 12rem);
+  font-size: 1.3rem;
+  vertical-align: top;
+  line-height: 1.8em;
+}
+
 @media (max-width: 992px) {
+
+  /* SKILL  LIST*/
+  .skill-dl-style-1 dt {
+    display: inline-block;
+    width: 9rem;
+    font-size: 1rem;
+    font-weight: 700;
+    vertical-align: top;
+    line-height: 1.8em;
+  }
+
+  .skill-dl-style-1 dd {
+    width: calc(100% - 10rem);
+    font-size: 1rem;
+  }
+
   .profile-1 {
     content: url("../assets/img/m_profile.jpeg");
   }
@@ -11486,6 +11523,9 @@ ul.li-bottom-1 li {
   display: block !important;
 }
 
+/**
+  List Section
+ */
 .div-align {
   display: flex;
   align-items: flex-end;
@@ -11522,6 +11562,12 @@ ul.li-bottom-1 li {
   color: #8c8c8c;
   font-weight: 350;
   margin-top: 1rem;
+}
+
+@media (max-width: 992px) {
+  .about-lsit-1 li div p {
+    font-size: 1.5rem;
+  }
 }
 
 /**
@@ -11612,7 +11658,7 @@ ul.li-bottom-1 li {
 
   .project-dl-style-1 dt {
     display: inline-block;
-    width: 12rem;
+    /*width: 12rem;*/
     font-size: 1.3rem;
     font-weight: 700;
     vertical-align: top;
