@@ -11424,10 +11424,10 @@ ul.li-bottom-1 li {
 }
 
 @media (min-width: 993px) {
-  .header-height-1 {
+  /*.header-height-1 {
     height: 100vh;
   }
-
+  */
   .right-1 {
     display: inline-block;
     width: calc(100% - 24rem);
