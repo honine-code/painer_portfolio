@@ -11673,3 +11673,85 @@ ul.li-bottom-1 li {
     line-height: 1.8em;
   }
 }
+
+
+
+.map-button{
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  /*height:60px;*/
+  /*font-size:1.6em;*/
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+
+.map-button-blue{
+  background: #396bc9;
+  color:#fff;
+  border:none;
+  position:relative;
+  /*height:60px;*/
+  /*font-size:1.6em;*/
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+
+.map-button:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+
+.map-button-blue:hover{
+  background:#fff;
+  color:#396bc9;
+}
+
+.map-button:before,.map-button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+
+.map-button-blue:before,.map-button-blue:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #396bc9;
+  transition:400ms ease all;
+}
+
+map-button-blue:before,.map-button-blue:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #396bc9;
+  transition:400ms ease all;
+}
+
+.map-button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.map-button:hover:before,.map-button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
