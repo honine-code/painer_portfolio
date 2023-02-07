@@ -11532,24 +11532,30 @@ ul.li-bottom-1 li {
   justify-content: space-between;
 }
 
+.div-align span {
+  font-size: 1.3rem;
+  color: #8c8c8c;
+  font-weight: 350;
+}
+
 .about-lsit-1 {
   list-style: none;
 }
 
 .about-lsit-1 li:first-child {
   padding-top: 0;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   border-top: 0;
 }
 
 .about-lsit-1 li {
-  padding: 2rem 0;
+  padding: 1rem 0 2rem;
   border-top: 1px dashed #8c8c8c;
 }
 
 .about-lsit-1 li div p {
-  font-size: 2rem;
-  font-weight: 350;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .about-lsit-1 li div p.term {
